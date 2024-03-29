@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #keyboard {
+        animation: keyboard infinite;
+        animation-duration: 20s;
+      }
+      @keyframes keyboard {
+        0% {
+          background-color: black;  transform: rotate(0deg);
+        }
+        10% {
+          background-color: blue;transform: rotate(1deg);
+        }
+        20% {
+          background-color: cadetblue; transform: rotate(0deg);
+        }
+        30% {
+          background-color: rgb(69, 1, 71);transform: rotate(1deg);
+        }
+        40% {
+          background-color: rgb(24, 66, 145); transform: rotate(0deg);
+        }
+        50% {
+          background-color: darkblue;  transform: rotate(1deg);
+        }
+        60% {
+          background-color: rgb(56, 82, 0);transform: rotate(0deg);
+        }
+        70% {
+          background-color: blueviolet; transform: rotate(1deg);
+        }
+        80% {
+          background-color: rgb(159, 122, 0);transform: rotate(0deg);
+        }
+        90% {
+          background-color: rgb(0, 126, 126); transform: rotate(1deg);
+        }
+        100% {
+          background-color: black;transform: rotate(0deg);
+        }
+      }
+      .ABC {
+        animation: ABC infinite;
+        animation-duration: 6s;
+      }
+      @keyframes ABC {
+        0% {
+          color: yellow;
+        }
+        30% {
+          color: rgb(0, 254, 233);
+        }
+        50% {
+          color: rgb(255, 5, 5);
+        }
+        70% {
+          color: rgb(1, 47, 255);
+        }
+        100% {
+          color: yellow; transform: rotate(0deg);
+        }
+      }
+      video {
+        animation: video ease-in-out infinite;
+        animation-duration: 10s;
+      }
+      @keyframes video {
+        0% {
+          width: 97%;
+          height: 100%;
+        }
+        50% {
+          width: 100%;
+          height: 100%;
+        }
+        100% {
+          width: 97%;
+          height: 100%;
+        }
+      }
+  
+    
+    </style>
+    <link rel="stylesheet" href="/keyboard.css" />
+    <title>GAMMING KEYBOARD</title>
+  </head>
+  <body>
+    <div id="container">
+      <video
+        src="./audi-rs6-hazard.1920x1080.mp4"
+        loop
+        autoplay
+      ></video>
+   <audio src="./videoplayback.m4a" autoplay loop></audio>
+      <div id="keyboard">
+        <div id="f1-frame">
+          <div id="esc">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">ESP</p>
+          </div>
+          <div id="f1">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F1</p>
+          </div>
+          <div id="f2">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F2</p>
+          </div>
+          <div id="f3">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F3</p>
+          </div>
+          <div id="f4">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F4</p>
+          </div>
+          <div id="f5">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F5</p>
+          </div>
+          <div id="f6">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F6</p>
+          </div>
+          <div id="f7">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F7</p>
+          </div>
+          <div id="f8">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F8</p>
+          </div>
+          <div id="f9">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F9</p>
+          </div>
+          <div id="f10">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F10</p>
+          </div>
+          <div id="f11">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F11</p>
+          </div>
+          <div id="f12">
+            <img src="./real button.png" alt="" />
+            <p class="ABC">F12</p>
+          </div>
+          <div id="f0">
+            <img src="./real button.png" alt="" />
+            <p class="ABC" style="text-indent: 13px">-</p>
+          </div>
+          <div id="fdel">
+            <img src="./real button.png" alt="" />
+            <p class="ABC" style="text-indent: 10px">=</p>
+          </div>
+          <div id="flight">
+            <img src="./real button.png" alt="" />
+            <p class="ABC" style="text-indent: 10px">+</p>
+          </div>
+        </div>
+        <div id="f1-frame">
+          <div id="esc">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">`</p>
+          </div>
+          <div id="f1">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">1</p>
+          </div>
+          <div id="f2">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">2</p>
+          </div>
+          <div id="f3">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">3</p>
+          </div>
+          <div id="f4">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">4</p>
+          </div>
+          <div id="f5">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">5</p>
+          </div>
+          <div id="f6">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">6</p>
+          </div>
+          <div id="f7">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">7</p>
+          </div>
+          <div id="f8">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">8</p>
+          </div>
+          <div id="f9">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">9</p>
+          </div>
+          <div id="f10">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">0</p>
+          </div>
+          <div id="f11">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">_</p>
+          </div>
+          <div id="f12">
+            <img src="./real button.png" alt="" />
+            <p class="EFG">+</p>
+          </div>
+          <div id="space">
+            <img src="./real button.png" alt="" />
+            <p class="EFG"></p>
+          </div>
+          <div id="flight">
+            <img src="./real button.png" alt="" />
+            <p class="EFG" id="SS">PG UP</p>
+          </div>
+        </div>
+        <div id="f1-frame">
+          <div id="tab">
+            <img src="./space.jpg" alt="" />
+            <p class="IKJ">TAB</p>
+          </div>
+          <div id="f1">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">Q</p>
+          </div>
+          <div id="f2">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">W</p>
+          </div>
+          <div id="f3">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">E</p>
+          </div>
+          <div id="f4">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">R</p>
+          </div>
+          <div id="f5">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">Y</p>
+          </div>
+          <div id="f6">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">I</p>
+          </div>
+          <div id="f7">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">U</p>
+          </div>
+          <div id="f8">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">O</p>
+          </div>
+          <div id="f9">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">P</p>
+          </div>
+          <div id="f10">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">[</p>
+          </div>
+          <div id="f11">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">]</p>
+          </div>
+          <div id="f12">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">:</p>
+          </div>
+          <div id="lines">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ">↵</p>
+          </div>
+          <div id="flight">
+            <img src="./real button.png" alt="" />
+            <p class="IKJ" id="DD">PG DN</p>
+          </div>
+        </div>
+        <div id="f1-frame">
+          <div id="tab-line4">
+            <img src="./space.jpg" alt="" />
+            <p class="MNB">CP LK</p>
+          </div>
+          <div id="f1">
+            <img src="./real button.png" alt="" />
+            <p class="MNB">A</p>
+          </div>
+          <div id="f2">
+            <img src="./real button.png" alt="" />
+            <p class="MNB">S</p>
+          </div>
+          <div id="f3">
+            <img src="./real button.png" alt="" />
+            <p class="MNB">D</p>
+          </div>
+          <div id="f4">
+            <img src="./real button.png" alt="" />
+            <p class="MNB">F</p>
+          </div>
+          <div id="f5">
+            <img src="./real button.png" alt="" />
+            <p class="MNB">G</p>
+          </div>
+          <div id="f6">
+            <img src="./real button.png" alt="" />
+            <p class="MNB">H</p>
+          </div>
+          <div id="f7">
+            <img src="./real button.png" alt="" />
+            <p class="MNB">J</p>
+          </div>
+          <div id="f8">
+            <img src="./real button.png" alt="" />
+            <p class="MNB">K</p>
+          </div>
+          <div id="f9">
+            <img src="./real button.png" alt="" />
+            <p class="MNB">L</p>
+          </div>
+          <div id="f10">
+            <img src="./real button.png" alt="" />
+            <p class="MNB">;</p>
+          </div>
+          <div id="f12">
+            <img src="./real button.png" alt="" />
+            <p class="MNB">@</p>
+          </div>
+          <div id="shift">
+            <img src="./real button.png" alt="" />
+            <p class="MNB" style="text-indent: 16px">SHIFT</p>
+          </div>
+          <div id="flight">
+            <img src="./real button.png" alt="" />
+            <p class="MNB" id="FF">←</p>
+          </div>
+        </div>
+        <div id="f1-frame">
+          <div id="tab-line4">
+            <img src="./space.jpg" alt="" />
+            <p class="GGG">SHIFT</p>
+          </div>
+          <div id="f1">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">\</p>
+          </div>
+          <div id="f2">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">Z</p>
+          </div>
+          <div id="f3">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">X</p>
+          </div>
+          <div id="f4">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">C</p>
+          </div>
+          <div id="f5">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">V</p>
+          </div>
+          <div id="f6">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">B</p>
+          </div>
+          <div id="f7">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">N</p>
+          </div>
+          <div id="f8">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">M</p>
+          </div>
+          <div id="f9">
+            <img src="./real button.png" alt="" />
+            <p class="GGG"><</p>
+          </div>
+          <div id="f10">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">></p>
+          </div>
+          <div id="f12">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">?</p>
+          </div>
+          <div id="shift1">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">$</p>
+          </div>
+          <div id="f12">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">↑</p>
+          </div>
+          <div id="flight">
+            <img src="./real button.png" alt="" />
+            <p class="GGG">!</p>
+          </div>
+        </div>
+        <div id="f1-frame">
+          <div id="esc">
+            <img src="./real button.png" alt="" />>
+            <p class="N">CRL</p>
+          </div>
+          <div id="f1">
+            <img src="./real button.png" alt="" />>
+            <p class="N" style="text-indent: 5px">🔝</p>
+          </div>
+          <div id="f2">
+            <img src="./real button.png" alt="" />
+            <p class="N">ALT</p>
+          </div>
+          <div id="space111">
+            <img src="./real button.png" alt="" />
+            <p class="N" style="text-indent: 135px">SPACE</p>
+          </div>
+          <div id="f10">
+            <img src="./real button.png" alt="" />
+            <p class="N">ALT</p>
+          </div>
+          <div id="f11">
+            <img src="./real button.png" alt="" />
+            <p class="N" style="text-indent: 5px">🔃</p>
+          </div>
+          <div id="f12">
+            <img src="./real button.png" alt="" />
+            <p class="N" style="text-indent: 8px">❏</p>
+          </div>
+          <div id="f0">
+            <img src="./real button.png" alt="" />
+            <p class="N" style="text-indent: 5px">←</p>
+          </div>
+          <div id="fdel">
+            <img src="./real button.png" alt="" />
+            <p class="N" style="text-indent: 12px">↓</p>
+          </div>
+          <div id="flight">
+            <img src="./real button.png" alt="" />
+            <p class="N" style="text-indent: 5px">→</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

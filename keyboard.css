@@ -1,0 +1,234 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 860px;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    background-image: url(./12067354_4884451.jpg);
+}
+
+#container video {
+    position: absolute;
+    width: 100%;
+    height: 860px;
+}
+
+#keyboard {
+    height: 350px;
+    width: 873px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 490px;
+    border-radius: 7px;
+    opacity: 78%;
+    box-shadow: 10px 10px 5px black;
+   
+
+}
+
+
+/* button  */
+#f1-frame { display: flex; gap: 4px;margin-top:6px; }
+.ABC { position: absolute; top: 14PX; margin-left: 10PX; font-weight: 600; color: yellow;  }
+.EFG { position: absolute; top: 74PX; margin-left: 17PX; font-weight: 600;  color:yellow}
+.IKJ { position: absolute; top: 130PX; margin-left: 18PX; font-weight: 600;  color:yellow}
+.MNB { position: absolute; top: 185PX; margin-left: 18PX; font-weight: 600;  color:yellow }
+.GGG { position: absolute; top: 239PX; margin-left: 18PX; font-weight: 600;  color:yellow }
+.N {position: absolute; top: 299PX; margin-left: 9PX; font-weight: 600;  color:yellow }
+#keyboard:hover { opacity: 91%; }
+#DD { top: 120PX; }
+#f1 { 
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%;
+   box-shadow: 3px 3px 5px yellow ; 
+}
+#f1:hover {box-shadow:5px 5px 1px red;padding: 2px; }
+#esc:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f2:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f3:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f4:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f5:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f6:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f7:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f8:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f9:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f10:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f11:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f12:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#f0:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#lines:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#flight:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#shift:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#tab-line4:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#shift1:hover {box-shadow: 5px 5px 1px red;padding: 2px; }
+#space111:hover {box-shadow: 5px 5px 1px red;padding: 1px; }
+#f1 img { height: 50px;width: 50px; }
+#esc {  margin-left: 7px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%;
+    box-shadow: 3px 3px 5px rgb(236, 1, 189) ;
+}
+#SS { top: 64PX; }
+#esc img { height: 50px;width: 50px;  }
+#f2 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(26, 12, 219) ;
+}
+#f2 img { height: 50px;width: 50px; }
+#f3 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(238, 56, 6) ;
+}
+#f3 img { height: 50px;width: 50px; }
+#f4 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(8, 181, 224) ;
+}
+#f4 img { height: 50px;width: 50px; }
+#f5 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(18, 213, 4) ;
+}
+#f5 img { height: 50px;width: 50px; }
+#f6 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(219, 138, 0) ;
+}
+#f6 img { height: 50px;width: 50px; }
+#f7 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(0, 172, 77) ;
+}
+#f7 img { height: 50px;width: 50px; }
+#f8 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(255, 247, 3) ;
+}
+#f8 img { height: 50px;width: 50px; }
+#f9 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(0, 218, 25) ;
+}
+#f9 img { height: 50px;width: 50px; }
+#f10 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(255, 0, 0) ;
+}
+#f10 img { height: 50px;width: 50px; }
+#f11 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(0, 235, 188) ;
+}
+#f11 img { height: 50px;width: 50px; }
+#f12 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(208, 0, 255) ;
+}
+#f12 img { height: 50px;width: 50px; }
+#f0 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px yellow ;
+}
+#f0 img { height: 50px;width: 50px; }
+#fdel {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(9, 132, 255) ;
+}
+#fdel img { height: 50px;width: 50px; }
+#flight {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(240, 0, 0) ;
+}
+#flight img { height: 50px;width: 50px; }
+#space {
+    height: 50px;
+    width: 105px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(255, 0, 0) ; position: relative;
+}
+#space img { height: 50px;width: 105px; position:relative; }
+#tab{
+    height: 50px;
+    width: 75px;
+    background-color: black;
+    opacity: 100%;
+    margin-left: 9px; box-shadow: 3px 3px 5px rgb(0, 243, 0) ;
+}
+#tab img { height: 50px;width: 75px; }
+#lines{
+    height: 50px;
+    width: 75px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(0, 135, 202) ;
+}
+#lines img { height: 50px;width: 75px; }
+#shift{
+    height: 50px;
+    width: 125px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(0, 255, 251) ;
+}
+#shift img { height: 50px;width:125px; }
+#tab-line4{
+    height: 50px;
+    width: 85px;
+    background-color: black;
+    opacity: 100%;
+    margin-left: 5px; box-shadow: 3px 3px 5px rgb(207, 0, 55) ;
+}
+#tab-line4 img { height: 50px;width: 85px; position: absolute; }
+#shift1{
+    height: 50px;
+    width: 70px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(42, 247, 1) ;
+}
+#shift1 img{ height: 50px;width: 70px; }
+#space111{
+    height: 50px;
+    width: 370px;
+    background-color: black;
+    opacity: 100%; box-shadow: 3px 3px 5px rgb(255, 251, 0) ;
+}
+#space111 img{ height: 50px;width: 370px; }
+
+#keyboard:hover { box-shadow: 2px 2px 1px red; }
